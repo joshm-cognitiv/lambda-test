@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     };
   };
 
-  nativeBuildInputs = [ cmake curl aws-lambda-cpp fmt ];
+  nativeBuildInputs = [ cmake curl aws-lambda-cpp];
 
   meta = {
     description = "Some Validator";
